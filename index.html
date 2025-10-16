@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="id" data-bs-theme="dark">
+
+<head>
+    <!-- Common Tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Undangan Pernikahan</title>
+
+    
+
+    <!-- Appearance -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Website Undangan Pernikahan">
+    <meta name="theme-color" content="#111111">
+
+    <!-- Preconnect CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    
+
+    <!-- Preload Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.js" integrity="sha256-mvTaORw+RTgKnX6ZHT4P5Sc9DNP2TBpSGII7F3sT8iE=" crossorigin="anonymous" as="script">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+
+    <!-- Dependencies CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body style="overflow-y: hidden; color: black;">
+
+    <!-- Navbar Bottom -->
+    <nav class="navbar navbar-expand fixed-bottom rounded-top-4 border-top p-0" id="navbar-menu">
+        <ul class="navbar-nav nav-justified w-100 align-items-center">
+            <li class="nav-item" >
+                <a class="nav-link text-center" href="#home" >
+                    <i class="fas fa-user-group"></i>
+                    <span class="d-block">Profil</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#location">
+                    <i class="fas fa-map-location-dot"></i>
+                    <span class="d-block">Lokasi</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#timeline">
+                    <i class="fas fa-heart"></i>
+                    <span class="d-block">Cerita</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#gallery">
+                    <i class="fas fa-images"></i>
+                    <span class="d-block">Galeri</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#comments">
+                    <i class="fas fa-comments"></i>
+                    <span class="d-block">Ucapan</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <!-- Main Content -->
+    <main data-bs-spy="scroll" data-bs-target="#navbar-menu"  data-bs-smooth-scroll="true" tabindex="0">
+
+        <!-- Home -->
+        <section id="home" class="position-relative overflow-hidden home" >
+            <div class="content-wrapper d-flex justify-content-center align-items-center">
+                <div class="text-center" >
+                    <div class="invitation-container" data-aos="zoom-in" data-aos-duration="10000">
+                        <h4 class="title-small">Tedak Siten</h4>
+                        <h1 class="bride-groom">Elyas Emir Mavani</h1>
+                        <h4 class="date">SABTU, 25 OKTOBER 2025</h4>
+                    </div>
+                </div>
+            </div>
+            
+
+                <img src="./assets/images/awan.png" class="cloud cloud-1">
+                <img src="./assets/images/awan.png" class="cloud cloud-2">
+                <img src="./assets/images/awan.png" class="cloud cloud-3">
+                <img src="./assets/images/awan.png" class="cloud cloud-4">
+                <img src="./assets/images/awan.png" class="cloud cloud-5">
+                <img src="./assets/images/awan.png" class="cloud cloud-6">
+                <img src="./assets/images/awan.png" class="cloud cloud-7">
+                <img src="./assets/images/awan.png" class="cloud cloud-8">
+                <img src="./assets/images/awan.png" class="cloud cloud-9">
+                <img src="./assets/images/awan.png" class="cloud cloud-10">
+            
+        </section>
+
+
+        <!-- Bride -->
+        <section class="position-relative overflow-hidden pt-4" id="mempelai" style="background-color: #E3EEF4;">
+            <div class="text-center" >
+                <div class="overflow-x-hidden">
+                    <div class="container">
+                        <div class="shield-container" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="ornament">
+                                <img src="./assets/images/bunga.png" alt="Ornament" class="ornament-image">
+                            </div>
+                        </div>
+                        <h4 data-aos="fade-up" data-aos-duration="2000" class="mt-4 text-center">Assalamualaikum Warahmatullahi Wabarakatuh</h4>
+                        <h2 data-aos="fade-up" data-aos-duration="2000"class="font-arabic py-4 px-2" style="font-size: 2rem; color: #000000;">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
+                        <p data-aos="fade-up" data-aos-duration="2000" class="smaller" style="color: black;">Dengan Rahmat dan Ridho Allah SWT kami sekeluarga bermaksud mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir dalam acara tedak siten anak kami</p>        
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-12 text-center mb-3 mb-0" data-aos="zoom-in" data-aos-duration="2000">
+                                <div class="shield-container">
+                                    <div class="card">
+                                        <div class="shield-couple mb-4">
+                                            <img src="./assets/images/bayi.png" alt="Wedding Couple" class="shield-image-couple">
+                                        </div>
+                                        <h2 class="nama-calon">Elyas Emir Mavani</h2>
+                                        <h4 class="title-small text-black   " >Putra dari Bapak Moh Emir Mavani <br>&<br> Ibu Asri Hidayanti</h4>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wedding Location -->
+        <section id="location" class="position-relative overflow-hidden p-0 m-0 location" >
+            <div class="text-center card-date-loc" >
+                <h2 class="judul" data-aos="zoom-in" data-aos-duration="2000" style="color: #E3EEF4;">Tedak Siten</h2>
+                <p data-aos="zoom-in" data-aos-duration="2000" class="smaller">Merupakan suatu kehormatan dan kebahagiaan bagi kami atas kehadiran Bapak/Ibu/Saudara/i untuk memberikan doa kepada putra kami.</p>
+
+                <div class="" >
+                    <div class="container">
+                        <div class="row align-items-center">
+                        <div class="col-12 col-md-6 text-center mt-4 mb-0 left-section" data-aos="zoom-in" data-aos-duration="2000">
+                            
+                                <div class="photo-container-kel">
+                                    <img src="./assets/images/kel.png" alt="Elyas Emir Mavani" class="photo">
+                                </div>
+                                <h1 class="title-tamu mt-4" style="color: #E3EEF4;">Elyas Emir Mavani</h1>
+                                <h4 class="title-small" style="color: #E3EEF4; font-size: 14px;">Putra dari Bapak Moh Emir Mavani <br>&<br> Ibu Asri Hidayanti</h4>
+                        </div>
+                    
+                        <div class="col-12 col-md-6 mb-3 mb-0 right-section" data-aos="zoom-in" data-aos-duration="2000">
+                                <h3 class="title-small" style="font-size: 1.2rem; margin-top: 5%; color: #E3EEF4;">Sabtu, 25 Oktober 2025</h3>
+                                <h3 class="title-small pb-4" style="font-size: 1.2rem; color: #E3EEF4;">10.00 - Selesai</h3>
+
+                                <h3 class="mt-4 title-tamu" style="font-size: 1.4rem; color: #E3EEF4;">The Cobbs Bistro</h3>
+                                <p class="smaller mt-4">JHL Auto, Alam Sutera, Jl. Jalur Sutera Boulevard, Panunggangan Tim., Kec. Pinang, Kota Tangerang, Banten 15143</p>
+
+                                <div class="py-2 mx-2 px-2 mb-2" data-aos="fade-up" data-aos-duration="2000">
+                                    <!-- Waktu akhir dapat diubah pada data-time (sesuai format tersebut) -->
+                                    <div class="row justify-content-center" data-time="2025-10-25 11:00:00" id="count-down" >
+                                      <ul class="countdown-timer">
+                                        <li class="count-item">
+                                          <span id="days">00</span>
+                                          <div class="label">Hari</div>
+                                        </li>
+                                        <li class="count-item">
+                                          <span id="hours">00</span>
+                                          <div class="label">Jam</div>
+                                        </li>
+                                        <li class="count-item">
+                                          <span id="minutes">00</span>
+                                          <div class="label">Menit</div>
+                                        </li>
+                                        <li class="count-item">
+                                          <span id="seconds">00</span>
+                                          <div class="label">Detik</div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                <a type="button" class="btn shadow mt-4 rounded-pill px-3 my-2 btn-medium" onclick="guest.open(this)" style="background-color: #E3EEF4; color: #144778;"
+                                    data-aos="fade-up" data-aos-duration="2000" target="_blank"
+                                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T250000/20230315T125000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
+                                    <i class="fa-solid fa-calendar-check me-2"></i>Simpan Tanggal
+                                </a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/bungakaat.png" class="bunga kanan">
+            <img src="./assets/images/bungakiba.png" class="bunga kiri">
+        </section>
+
+        <!-- Wedding Location -->
+        <section id="maps" class="position-relative overflow-hidden p-0 m-0 " style="background-color: #E3EEF4;">
+            <div class="text-center" >
+                <h2 class="judul" data-aos="zoom-in" data-aos-duration="2000">Google Maps</h2>
+                <div class="map-container w-100" data-aos="zoom-in" data-aos-duration="2000">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.282211139195!2d106.65506959999999!3d-6.226473299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb49eedb6237%3A0x46f12a045034ce79!2sThe%20Cobbs%20Bistro!5e0!3m2!1sid!2sid!4v1760421164541!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cerita Kita -->
+        <section class="timeline position-relative overflow-hidden p-0 m-0 pt-4" id="timeline" style="background-color: #E3EEF4; /* Atur warna background */">
+            <div class="container" style="z-index: 1;">
+                <div class="text-center" data-aos="zoom-in" data-aos-duration="2000">
+                    <h2 class="judul " >Cerita Kita</h2>
+                    <p class=" px-3 mb-4 smaller" >Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu, cerita yang akan kami kenang selalu, dan cerita itu kami bagi untuk anda.</p>
+                </div>
+                <div class="single-box" >
+                    <div class="custom"></div>
+                    <div class="date-area">
+                        <span>2025</span>
+                    </div>
+                    <div class="content" data-aos="fade-left" data-aos-duration="2000">
+                        <h3>Anugerah Baru dalam Keluarga</h3>
+                        <p style="font-size: 12px;">Pada 7 Maret 2025, Tuhan menghadirkan anugerah kecil penuh cinta ke dalam keluarga kami.
+Tangis dan senyumnya membawa kebahagiaan baru bagi kami semua.</p>
+                    </div>
+                </div>
+                <div class="single-box box-right" >
+                    <div class="custom"></div>
+                    <div class="date-area">
+                        <span>2025</span>
+                    </div>
+                    <div class="content" data-aos="fade-right" data-aos-duration="2000">
+                        <h3>Sambutan dari Tiga Kakak</h3>
+                        <p style="font-size: 12px;">Kakak Eliza, Elmira, dan Elena begitu bahagia menyambut adik kecil mereka.
+Kini rumah kami makin ramai dengan tawa dan cinta yang hangat.</p>
+                    </div>
+                </div>
+                <div class="single-box" >
+                    <div class="custom"></div>
+                    <div class="date-area">
+                        <span>2025</span>
+                    </div>
+                    <div class="content" data-aos="fade-left" data-aos-duration="2000">
+                        
+                        <h3>Makna Tedak Sitèn</h3>
+                        <p style="font-size: 12px;">Sebagai wujud syukur atas tumbuh kembang sang buah hati,
+kami akan mengadakan Tedak Sitèn,
+sebuah doa agar langkah pertamanya selalu diberkahi dan dimudahkan.</p>
+                    </div>
+                </div>
+                <div class="single-box box-right" >
+                    <div class="custom"></div>
+                    <div class="date-area">
+                        <span>2025</span>
+                    </div>
+                    <div class="content" data-aos="fade-right" data-aos-duration="2000">
+                        
+                        <h3>Undangan dan Harapan</h3>
+                        <p style="font-size: 12px;">Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i
+                            untuk hadir dan berbagi kebahagiaan bersama kami dalam acara
+                            Tedak Sitèn putra tercinta kami</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery -->
+        <section class="position-relative overflow-hidden pb-4 m-0 " id="gallery" style="background-color: #E3EEF4;">
+            <div class="text-center" data-aos="zoom-in" data-aos-duration="2000">
+                <h2 class="judul " >Galeri Photo</h2>
+                <p class=" px-3 mb-4 smaller" >Foto dan Video kebahagian kami yang kami kenang selalu.</p>
+            </div>       
+            <div class="card-gallery">
+                    <div id="carousel-image-two" data-aos="zoom-in" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    
+                        <div class="carousel-inner rounded-4">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal2.png" alt="image 1" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal1.png" alt="image 2" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal3.png" alt="image 3" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal4.png" alt="image 4" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal5.png" alt="image 5" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal6.png" alt="image 6" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal1.png" alt="image 7" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal8.png" alt="image 8" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal1.png" alt="image 9" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal3.png" alt="image 10" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal2.png" alt="image 11" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal5.png" alt="image 12" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal9.png" alt="image 13" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal3.png" alt="image 14" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal7.png" alt="image 15" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal10.png" alt="image 16" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal4.png" alt="image 17" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="./assets/images/gal6.png" alt="image 18" class="d-block w-100" onclick="util.modal(this)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-image-two" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-image-two" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>                                     
+                    
+                    
+            </div>
+            <img src="./assets/images/bungakiat.png" class="bunga kiat">
+            <img src="./assets/images/bungakaba.png" class="bunga kaba">
+        </section>
+
+        <!-- Comment -->
+        <section class="position-relative overflow-hidden p-0 m-0 " id="comments" style="background-color: #144778; justify-content: center; align-items: center;" >
+            <div class="text-center" data-aos="zoom-in" data-aos-duration="2000" style="color: #E3EEF4;">
+                <h2 class="judul "  style="color: #E3EEF4;" >Ucapan & Doa</h2>
+                <p class=" px-3 mb-4 smaller" >
+                    Merupakan suatu kehormatan dan kebahagiaan bagi Kami apabila Bapak/ Ibu/ Saudara/ i berkenan hadir untuk memberikan doa kepada buah hati kami</p>            </div>
+            <div class="card-date mt-0" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="overflow-x-hidden" >
+                    <div class="container ">
+                        <div class="card card mx-auto">
+                            <div class="mb-3 w-100">
+                                <label for="form-name" class="form-label"><i class="fa-solid fa-person me-1"></i>Nama</label>
+                                <input type="text" class="form-control shadow-sm rounded-4" id="form-name">
+                            </div>
+
+                            <div class="mb-3  w-100">
+                                <label for="form-comment" class="form-label"><i class="fa-solid fa-comment me-1"></i>Ucapan &amp; Doa</label>
+                                <textarea class="form-control shadow-sm rounded-4" id="form-comment" rows="4" ></textarea>
+                            </div>
+
+                            <div class="mb-3 w-100">
+                                <label for="form-name" class="form-label"><i class="fa-solid fa-map-marker me-1"></i>Domisili</label>
+                                <input type="text" class="form-control shadow-sm rounded-4" id="form-domisili" >
+                            </div>
+
+                            <div class="mb-3 w-100">
+                                <label for="form-presence" class="form-label"><i class="fa-solid fa-cutlery me-1"></i>Jenis Makanan</label>
+                                <select class="form-select shadow-sm rounded-4" id="form-presence">
+                                    <option value="0" selected></option>
+                                    <option value="1">Vegie</option>
+                                    <option value="2">Non-Vegie</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 w-100">
+                            <label for="form-presence" class="form-label"><i class="fa-solid fa-person-circle-question me-1"></i>Kehadiran</label>
+                            <select class="form-select shadow-sm rounded-4" id="form-presence">
+                                <option value="0" selected></option>
+                                <option value="1">Datang</option>
+                                <option value="2">Berhalangan</option>
+                            </select>
+                        </div>
+                            <div class="d-grid">
+                                <button type="button" class="btn rounded-pill px-3 my-2 btn-medium" onclick="guest.open(this)" style="background-color: #144778; color: #fff;">
+                                    <i class="fa-solid fa-envelope-open me-2"></i>Kirim Ucapan
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/awan.png" class="cloud cloud-1">
+            <img src="./assets/images/awan.png" class="cloud cloud-2">
+            <img src="./assets/images/awan.png" class="cloud cloud-3">
+            <img src="./assets/images/awan.png" class="cloud cloud-4">
+            <img src="./assets/images/awan.png" class="cloud cloud-5">
+            <img src="./assets/images/awan.png" class="cloud cloud-6">
+            <img src="./assets/images/awan.png" class="cloud cloud-7">
+            <img src="./assets/images/awan.png" class="cloud cloud-8">
+            <img src="./assets/images/awan.png" class="cloud cloud-9">
+            <img src="./assets/images/awan.png" class="cloud cloud-10">
+        </section>
+
+        <!-- Kado-->
+        <section class=" position-relative overflow-hidden m-0 " id="kado" style="background-color: #E3EEF4;">
+            <div class="text-center" data-aos="zoom-in" data-aos-duration="2000">
+                <h2 class="judul " >Kirim Kado</h2>
+                <p class=" px-3 mb-4 smaller" >Terima kasih atas doa dan restu yang telah anda berikan, jika anda ingin mengirimkan kado nikah, silahkan kirim dengan cara dibawah ini. Sebelumnya, kami mengucapkan banyak terima kasih.</p>
+            </div>
+            <div class="card-tutup" data-aos="zoom-in" data-aos-duration="2000" >
+                <div class="overflow-x-hidden" >
+                    <div class="container" >
+                        <div class="icon icon-shape  text-white  ">
+                            <img src="./assets/images/kado.png" alt="kado" width="100%">
+                        </div>
+                        <h5 class="card-title text-uppercase mb-0" style="color: #000;">KIRIM KADO YUKKK</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" position-relative overflow-hidden pb-5 m-0 mb-4 penutup" id="">
+            <div class="card-tutup" data-aos="zoom-in" data-aos-duration="2000" >
+                <p class="mt-4 text-black smaller" style="text-align: center; " data-aos="fade" data-aos-duration="2000">
+                    Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk memberikan do'a untuk buah hati kami. Kami ucapkan terima kasih.
+                </p>
+                
+            </div>
+            <h4 class="m-0 text-center">Wassalamualaikum Warahmatullahi Wabarakatuh</h4>
+        </section>
+
+        
+    </main>
+    
+    <div class="loading-page bg-black" id="welcome">
+        <div class="split left"></div>
+        <div class="split right"></div>
+
+    
+        <div class="content-wrapper d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <h2 class="mb-4 title-small">Tedak Siten</h2>
+                <h2 class="my-4 title-large" id="wedding-title">Elyas Emir Mavani</h2>
+                <div id="guest-name" data-message="Kepada Yth Bapak/Ibu/Saudara/i"></div>
+                <h5 class="text-brown">Kepada Yth Bapak/Ibu/Saudara/i</h5>
+                <h4 class="text-brown">Neta Aulya</h4>
+                <button type="button" class="btn custom-button shadow mt-4 btn-large" onclick="guest.open(this)">
+                    <i class="fa-solid fa-envelope-open me-2"></i> Buka Undangan
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio Button -->
+    <button type="button" id="button-music" style="display: none;" class="btn border border-2 btn-sm btn-music" onclick="audio.button(this)" data-url="./assets/music/sound.mp3">
+        <i class="fa-solid fa-circle-pause spin-button"></i>
+    </button>
+
+    <!-- Kado Button -->
+    <a href="#kado" style="text-decoration: none; color: inherit;">
+        <button type="button"  id="button-kado" style="display: block;" class="btn border border-2 btn-sm btn-kado">
+                <i class="fa-solid fa-gift"></i>
+                <span style="font-size: 10px;padding-top: 0;">KADO</span>
+        </button>
+    </a>
+
+    <!-- RSVP Button -->
+    <a href="#comments" style="text-decoration: none; color: inherit;">
+        <button type="button"  id="button-rsvp" style="display: block;" class="btn border  btn-sm btn-rsvp">
+                <i class="fa-solid fa-envelope-open"></i>
+                <span style="font-size: 10px;padding-top: 0;">RSVP</span>
+        </button>
+    </a>
+
+    <!-- Loading Page -->
+    <div class="loading-page bg-black" id="loading" style="display: none;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+            <div class="w-75 text-center">
+                
+                <div class="progress" role="progressbar" style="height: 0.5rem;">
+                    <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+                </div>
+                <small class="mt-1 text-light" id="progress-info" style="display: none;">Loading</small>
+                <noscript>
+                    <small class="mt-1 text-danger">Sorry, this invitation requires javascript to work</small>
+                </noscript>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-image" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content rounded-4">
+                <div class="modal-body p-0">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                        <img src="./assets/images/bg.png" class="img-fluid w-100 rounded-4" alt="image" id="show-modal-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dependencies JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.js" integrity="sha256-mvTaORw+RTgKnX6ZHT4P5Sc9DNP2TBpSGII7F3sT8iE=" crossorigin="anonymous"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
