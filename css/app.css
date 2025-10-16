@@ -1034,6 +1034,28 @@ p {
     overflow: hidden;
 }
 
+.bungakado {
+    position: absolute;
+    width: 20vw; /* Ukuran bunga mengikuti lebar layar */
+    max-width: 400px; /* Batas ukuran maksimal */
+    height: auto;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Bunga kiri bawah */
+.bungakado.kiri {
+    bottom: -8%;
+    left: -8%;
+    z-index: 1;
+}
+
+.bungakado.kanan {
+    top: -8%;
+    right: -8%;
+    z-index: 1;
+}
+
 /* Styling gambar bunga */
 .bunga {
     position: absolute;
@@ -1044,9 +1066,8 @@ p {
     pointer-events: none;
 }
 
-/* Bunga kanan atas */
 .bunga.kanan {
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: 1;
 }
