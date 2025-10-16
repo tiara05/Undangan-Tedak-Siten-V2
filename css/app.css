@@ -1036,8 +1036,7 @@ p {
 
 .bungakado {
     position: absolute;
-    width: 20vw; /* Ukuran bunga mengikuti lebar layar */
-    max-width: 400px; /* Batas ukuran maksimal */
+    width: 10vw; /* Ukuran bunga mengikuti lebar layar */
     height: auto;
     z-index: 0;
     pointer-events: none;
@@ -1045,14 +1044,14 @@ p {
 
 /* Bunga kiri bawah */
 .bungakado.kiri {
-    bottom: -8%;
-    left: -8%;
+    bottom: -15%;
+    left: -2%;
     z-index: 1;
 }
 
 .bungakado.kanan {
-    top: -8%;
-    right: -8%;
+    top: -15%;
+    right: -2%;
     z-index: 1;
 }
 
@@ -1183,6 +1182,26 @@ p {
   
     .label {
       font-size: 12px; /* Kurangi ukuran font label */
+    }
+    .bungakado {
+        position: absolute;
+        width: 20vw; /* Ukuran bunga mengikuti lebar layar */
+        height: auto;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    /* Bunga kiri bawah */
+    .bungakado.kiri {
+        bottom: -8%;
+        left: -8%;
+        z-index: 1;
+    }
+
+    .bungakado.kanan {
+        top: -8%;
+        right: -8%;
+        z-index: 1;
     }
   }
   
